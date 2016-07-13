@@ -1,0 +1,19 @@
+{
+  "name": "boot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  }
+}
