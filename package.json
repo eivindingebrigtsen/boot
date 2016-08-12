@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "test": "./node_modules/.bin/ava",
+    "coveralls": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -15,6 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.15.2",
+    "coveralls": "2.11.12",
+    "nyc": "7.1.0",
     "xo": "^0.16.0"
   }
 }
